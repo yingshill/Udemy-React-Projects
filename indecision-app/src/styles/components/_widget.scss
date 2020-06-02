@@ -1,0 +1,27 @@
+//widget 
+.widget {
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+
+// widget header 
+.widget-header {
+    background: $blue;  // it's padding and content color, border has color, margin no color
+    color: $off-white;
+    padding: $m-size;
+    display: flex;
+    justify-content: space-between; // all space should be distubited between items
+}
+
+.widget-header__title {
+    margin: 0;
+}
+
+//error messege 
+.widget__messege {
+    color: $off-white;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+    border-bottom: 1px solid lighten($light-blue, 10%);
+}

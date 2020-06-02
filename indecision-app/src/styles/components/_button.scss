@@ -1,0 +1,39 @@
+
+//big-button
+.big-button {
+    background: $purple;
+    border: none;
+    border-bottom: .6rem solid darken($purple, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $xl-size;
+    padding: 2.4rem;
+    width: 100%;   // decide the text will occupy the whole div width
+}
+
+.big-button:disabled {
+    opacity: .5;
+}
+
+//Small Button
+
+.button {
+    background: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple, 5%);
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+
+
+}
+
+//bem: block, element, moderator
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
